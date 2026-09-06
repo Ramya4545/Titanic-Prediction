@@ -4,7 +4,7 @@ import pandas as pd
 
 
 # Load the trained model and encoders
-model = joblib.load("titanic_model.pkl")
+model = joblib.load("titanic_Logistic_Regression model.pkl")
 sex_encoder = joblib.load("sex_encoder.pkl")
 embarked_encoder = joblib.load("embarked_encoder.pkl")
 
