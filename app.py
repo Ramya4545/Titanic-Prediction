@@ -9,6 +9,15 @@ sex_encoder = joblib.load("sex_encoder.pkl")
 embarked_encoder = joblib.load("embarked_encoder.pkl")
 
 
+
+
+st.write("Model expects:")
+st.write(model.feature_names_in_)
+
+
+
+
+
 # Streamlit title
 st.title("🚢 Titanic Survival Prediction")
 
